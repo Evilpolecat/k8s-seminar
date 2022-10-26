@@ -5,11 +5,11 @@ metadata:
 spec:
  containers: 
   - name: bear
-     image: supergiantkir/animals:bear
-     ports: 
-     - containerPort: 80
+    image: supergiantkir/animals:bear
+    ports: 
+    - containerPort: 80
   - name: nginx 
-     image: yanivomc/spring-music:latest
-     ports: 
-     - containerPort: 8080
+    image: yanivomc/spring-music:latest
+    ports: 
+    - containerPort: 8080
 

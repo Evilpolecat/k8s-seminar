@@ -7,9 +7,9 @@ spec:
   - name: bear
    image: supergiantkir/animals:bear
    ports: 
-   - containerPort: 8080
+   - containerPort: 80
  - name: nginx 
    image: yanivomc/spring-music:latest
    ports: 
-   - containerPort: 80
+   - containerPort: 8080
 
